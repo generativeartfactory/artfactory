@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bookmarks</title>
+  <%= stylesheet_link_tag 'application' %>
+</head>
+<body>
+
+<h1 class='title'>Bookmarks</h1>
+
+<div class='nav'>
+  <%= link_to 'New', links_path %> |
+  <%= link_to 'Hot', hot_links_path %>
+</div>
+
+<%= yield %>
+
+</body>
+</html>
