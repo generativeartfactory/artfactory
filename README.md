@@ -10,5 +10,7 @@ Let's you:
 ## Samples 
 
 - [`/links-rails`](links-rails) - Rails Edition
+- [`/links-sinatra`](links-sinatra) - Sinatra Edition
+
 
 
